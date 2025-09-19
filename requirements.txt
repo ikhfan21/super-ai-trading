@@ -1,0 +1,15 @@
+streamlit
+pandas
+sqlalchemy
+yfinance
+pandas-ta
+scikit-learn
+matplotlib
+plotly
+joblib
+numpy
+requests
+beautifulsoup4
+selenium
+webdriver-manager
+TA-Lib==0.4.28

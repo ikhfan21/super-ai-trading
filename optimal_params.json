@@ -1,0 +1,4389 @@
+{
+    "AALI.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "ABBA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "ABDA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "ABMM.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "ACES.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "ACST.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "ADES.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "ADHI.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "ADMF.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "ADMG.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "ADMR.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "ADRO.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "AGAR.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "AGII.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "AGRS.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "AGRO.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "AHAP.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "AIMS.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "AISA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "AKKU.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "AKPI.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "AKRA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "AKSI.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "ALDO.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "ALKA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "ALMI.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "ALTO.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "AMAG.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "AMAN.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "AMAR.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "AMFG.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "AMMS.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "AMRT.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "ANDI.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "ANJT.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "ANTM.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "APEX.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "APIC.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "APII.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "APLI.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "APLN.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "ARCI.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "ARGO.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "ARII.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "ARKA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "ARNA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "ARTA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "ARTO.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "ASBI.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "ASDM.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "ASGR.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "ASII.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "ASJT.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "ASLC.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "ASMI.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "ASRI.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "ASRM.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "ASSA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "ATAP.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "ATIC.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "AUTO.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "AYAM.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "AYLS.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BACA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "BAJA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BALI.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BAPA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "BAPI.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "BATA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "BATT.JK": {
+        "error": "gagal memuat data: (sqlite3.OperationalError) no such table: BATT.JK\n[SQL: SELECT * FROM 'BATT.JK']\n(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+    },
+    "BAYU.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BBCA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "BBHI.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BBKP.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BBLD.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BBNI.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "BBRI.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "BBRM.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "BBSS.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "BBTN.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BBYB.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BCAP.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BCIC.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "BCIP.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BDMN.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "BEEF.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BEKS.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BELL.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BESS.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "BEST.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BFIN.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BGTG.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BHIT.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BIKA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "BIMA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BINA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BIPI.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BIRD.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BISI.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BKDP.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BKSL.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "BKSW.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "BLTA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "BLTZ.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "BMAS.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BMHS.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "BMRI.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "BMSR.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "BMTR.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BNBA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "BNBR.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "BNGA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BNII.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BNLI.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "BOGA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BOLA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "BOLT.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "BOMA.JK": {
+        "error": "gagal memuat data: (sqlite3.OperationalError) no such table: BOMA.JK\n[SQL: SELECT * FROM 'BOMA.JK']\n(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+    },
+    "BOSS.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "BPFI.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "BPII.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "BPTR.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "BRAM.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BRIS.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BRMS.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BRNA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BRPT.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BSDE.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BSIM.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BSSR.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "BTEL.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "BTON.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BTPS.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "BUDI.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "BUKA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BUKK.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "BULL.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "BUMI.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "BUVA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "BVIC.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "CAKK.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "CANI.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "CARS.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "CASA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "CASH.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "CASS.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "CCSI.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "CEKA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "CENT.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "CFIN.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "CINT.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "CITA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "CITY.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "CKRA.JK": {
+        "error": "data tidak cukup"
+    },
+    "CLAY.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "CLEO.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "CLPI.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "CMNP.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "CMPP.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "CNKO.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "CNTX.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "COCO.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "COWL.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "CPIN.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "CPRI.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "CPRO.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "CSAP.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "CSIS.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "CSMI.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "CSRA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "CTBN.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "CTRA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "DADA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "DART.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "DAYA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "DEAL.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "DEFI.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "DEWA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "DFAM.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "DGIK.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "DGNS.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "DIGI.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "DILD.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "DIVA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "DKFT.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "DLTA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "DMAS.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "DMMX.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "DMND.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "DOID.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "DPNS.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "DPUM.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "DSFI.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "DSNG.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "DSSA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "DUTI.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "DVLA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "DWGL.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "DYAN.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "ECII.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "EDGE.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "EKAD.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "ELSA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "ELTY.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "EMDE.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "EMTK.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "ENAK.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "ENRG.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "ENVY.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "EPAC.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "EPMT.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "ERAA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "ERTX.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "ESIP.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "ESSA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "ESTA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "ESTI.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "ETWA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "EXCL.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "FAPA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "FAST.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "FILM.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "FINN.JK": {
+        "error": "gagal memuat data: (sqlite3.OperationalError) no such table: FINN.JK\n[SQL: SELECT * FROM 'FINN.JK']\n(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+    },
+    "FITT.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "FLMC.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "FMII.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "FOOD.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "FORU.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "FPNI.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "FREN.JK": {
+        "error": "gagal memuat data: (sqlite3.OperationalError) no such table: FREN.JK\n[SQL: SELECT * FROM 'FREN.JK']\n(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+    },
+    "FUJI.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "GAMA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "GDST.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "GDYR.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "GEMA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "GGRM.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "GGRP.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "GHON.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "GIAA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "GICO.JK": {
+        "error": "gagal memuat data: (sqlite3.OperationalError) no such table: GICO.JK\n[SQL: SELECT * FROM 'GICO.JK']\n(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+    },
+    "GJTL.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "GLOB.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "GLVA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "GMFI.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "GMTD.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "GOLD.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "GOLL.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "GOTO.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "GPRA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "GPSO.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "GSMF.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "GTBO.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "GWSA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "GZCO.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "HDFA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "HDIT.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "HDTX.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "HELI.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "HERO.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "HEXA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "HITS.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "HKMU.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "HMDP.JK": {
+        "error": "gagal memuat data: (sqlite3.OperationalError) no such table: HMDP.JK\n[SQL: SELECT * FROM 'HMDP.JK']\n(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+    },
+    "HOKI.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "HOME.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "HOMI.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "HOPE.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "HOTL.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "HADE.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "HRME.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "HRTA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "HRUM.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "IBFN.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "IBST.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "ICBP.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "ICON.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "IDPR.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "IDR.JK": {
+        "error": "gagal memuat data: (sqlite3.OperationalError) no such table: IDR.JK\n[SQL: SELECT * FROM 'IDR.JK']\n(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+    },
+    "IFII.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "IFSH.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "IGAR.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "IIKP.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "IKAI.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "IKAN.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "IKBI.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "IMAS.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "IMJS.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "IMPC.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "INAF.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "INAI.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "INCI.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "INCO.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "INDF.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "INDO.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "INDR.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "INDS.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "INDX.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "INDY.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "INKP.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "INPC.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "INPP.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "INPS.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "INRU.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "INTA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "INTD.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "INTP.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "IPAC.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "IPCC.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "IPCM.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "IPOL.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "IPTV.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "IRRA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "ISAT.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "ISSP.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "ITIC.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "ITMA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "ITMG.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "JAST.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "JAWA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "JAYA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "JECC.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "JGLE.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "JIHD.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "JKON.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "JKSW.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "JMAS.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "JPFA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "JRPT.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "JSMR.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "JSPT.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "KBAG.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "KBLI.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "KBLM.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "KAEF.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "KARW.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "KAYU.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "KBRI.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "KCEL.JK": {
+        "error": "gagal memuat data: (sqlite3.OperationalError) no such table: KCEL.JK\n[SQL: SELECT * FROM 'KCEL.JK']\n(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+    },
+    "KDSI.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "KEEN.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "KEJU.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "KIAS.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "KICI.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "KIJA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "KBLV.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "KDTN.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "KFAQ.JK": {
+        "error": "gagal memuat data: (sqlite3.OperationalError) no such table: KFAQ.JK\n[SQL: SELECT * FROM 'KFAQ.JK']\n(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+    },
+    "KFIN.JK": {
+        "error": "gagal memuat data: (sqlite3.OperationalError) no such table: KFIN.JK\n[SQL: SELECT * FROM 'KFIN.JK']\n(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+    },
+    "KINO.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "KIOS.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "KOBX.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "KOIN.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "KONI.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "KOTA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "KPAS.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "KPIG.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "KRAS.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "KREN.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "LABA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "LAPD.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "LCGP.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "LCKM.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "LEAD.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "LFLO.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "LIFE.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "LINK.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "LION.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "LMAS.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "LMPI.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "LMSH.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "LPCK.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "LPGI.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "LPIN.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "LPKR.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "LPLI.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "LPPF.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "LPPS.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "LRNA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "LSIP.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "LTLS.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "LUCK.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "LUCY.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "MAIN.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "MAMI.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "MAPA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "MAPB.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "MAPK.JK": {
+        "error": "gagal memuat data: (sqlite3.OperationalError) no such table: MAPK.JK\n[SQL: SELECT * FROM 'MAPK.JK']\n(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+    },
+    "MARI.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "MASA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "MAYA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "MBAP.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "MBSS.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "MBTO.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "MCAS.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "MCOL.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "MDIA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "MDKA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "MDKI.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "MDLN.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "MDRN.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "MEDC.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "MEGA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "MERK.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "META.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "MGLV.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "MGNA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "MGRO.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "MICE.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "MIDI.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "MIKA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "MINA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "MKPI.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "MLIA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "MLPL.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "MLPT.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "MMLP.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "MNCN.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "MPMX.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "MPOW.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "MPPA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "MRAT.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "MREI.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "MSIN.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "MSKY.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "MTDL.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "MTFN.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "MTLA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "MTPS.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "MTSM.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "MYOH.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "MYOR.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "MYRX.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "MYTX.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "NELY.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "NETV.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "NFCX.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "NICK.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "NICL.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "NIKL.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "NIRO.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "NIPS.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "NOBU.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "NPGF.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "NUSA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "OASA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "OCAP.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "OKAS.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "OMRE.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "PADI.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "PALM.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "PAMG.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "PANI.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "PANR.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "PANS.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "PBID.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "PBRX.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "PBSA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "PEGE.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "PGAS.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "PGJO.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "PGLI.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "PGUN.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "PJAA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "PKPK.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "PLAN.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "PLAS.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "PNBN.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "PNBS.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "PNGO.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "PNIN.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "PNLF.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "PNSE.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "POLY.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "POOL.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "PORT.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "POWR.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "PPRI.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "PPRO.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "PRDA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "PRIM.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "PSAB.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "PSDN.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "PSGO.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "PSKT.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "PSSI.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "PTBA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "PTDU.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "PTIS.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "PTPP.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "PTRO.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "PUDP.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "PURA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "PURI.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "PWON.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "PYFA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "RAJA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "RALS.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "RAMA.JK": {
+        "error": "gagal memuat data: (sqlite3.OperationalError) no such table: RAMA.JK\n[SQL: SELECT * FROM 'RAMA.JK']\n(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+    },
+    "RBMS.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "RDTX.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "RELI.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "RICY.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "RIGS.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "RISE.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "RMBA.JK": {
+        "error": "gagal memuat data: (sqlite3.OperationalError) no such table: RMBA.JK\n[SQL: SELECT * FROM 'RMBA.JK']\n(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+    },
+    "RIMO.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "ROTI.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "SAME.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "SAPX.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "SATU.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "SAWIT.JK": {
+        "error": "gagal memuat data: (sqlite3.OperationalError) no such table: SAWIT.JK\n[SQL: SELECT * FROM 'SAWIT.JK']\n(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+    },
+    "SCCO.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "SCMA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "SCPI.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "SDPC.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "SFAN.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "SGER.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "SGRO.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "SHID.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "SHIP.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "SIAP.JK": {
+        "error": "gagal memuat data: (sqlite3.OperationalError) no such table: SIAP.JK\n[SQL: SELECT * FROM 'SIAP.JK']\n(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+    },
+    "SIDO.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "SILO.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "SIMA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "SIMP.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "SINI.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "SIPD.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "SKBM.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "SKLT.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "SKRN.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "SMAR.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "SMBR.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "SMCB.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "SMDM.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "SMDR.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "SMGR.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "SMIL.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "SMKL.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "SMMA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "SMMT.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "SMRA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "SMSM.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "SNLK.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "SOCI.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "SONA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "SOSS.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "SOTS.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "SPMA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "SPTO.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "SQMI.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "SRAJ.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "SRIL.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "SRSN.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "SRTG.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "SSIA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "SSMS.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "SSTM.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "SULI.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "SUPR.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "SURE.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "SWAT.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "TALF.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "TAMA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "TAMU.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "TARA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "TAXI.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "TBIG.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "TBLA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "TBMS.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "TCID.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "TCPI.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "TDPM.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "TEBE.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "TECH.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "TFAS.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "TFCO.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "TGKA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "TGRA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "TIFA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "TINS.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "TIRA.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "TIRT.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "TKIM.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "TLKM.JK": {
+        "rsi_length": 21,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "TMAS.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "TMPO.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "TOBA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "TOPS.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "TOTL.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "TOTO.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "TPIA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "TPMA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "TRAM.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "TRIL.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "TRIM.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "TRIN.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "TRIS.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "TRJA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "TRST.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "TRUE.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "TRUK.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "TSPC.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "TUGU.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "TURI.JK": {
+        "error": "gagal memuat data: (sqlite3.OperationalError) no such table: TURI.JK\n[SQL: SELECT * FROM 'TURI.JK']\n(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+    },
+    "UANG.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "UCID.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "ULTJ.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "UNIC.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "UNIQ.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "UNSP.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "UNTR.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "UNVR.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "URBN.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "VFIN.JK": {
+        "error": "gagal memuat data: (sqlite3.OperationalError) no such table: VFIN.JK\n[SQL: SELECT * FROM 'VFIN.JK']\n(Background on this error at: https://sqlalche.me/e/20/e3q8)"
+    },
+    "VICI.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "VIVA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "VOKS.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "VRNA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "WAPO.JK": {
+        "rsi_length": 14,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "WEGE.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "WEHA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 5
+    },
+    "WICO.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "WIFI.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "WIIM.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "WIKA.JK": {
+        "rsi_length": 21,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 5
+    },
+    "WINR.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "WOOD.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "WOWS.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "WSBP.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "WSKT.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "WTON.JK": {
+        "rsi_length": 10,
+        "bbands_length": 20,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "YELO.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "YPAS.JK": {
+        "rsi_length": 14,
+        "bbands_length": 20,
+        "n_estimators": 100,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "ZBRA.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "ZINC.JK": {
+        "rsi_length": 10,
+        "bbands_length": 30,
+        "n_estimators": 100,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    },
+    "ZONE.JK": {
+        "rsi_length": 10,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 10,
+        "min_samples_leaf": 1
+    },
+    "ZYRX.JK": {
+        "rsi_length": 14,
+        "bbands_length": 15,
+        "n_estimators": 50,
+        "max_depth": 20,
+        "min_samples_leaf": 1
+    }
+}

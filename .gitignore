@@ -1,13 +1,8 @@
-# File Database
-data_saham.db
-
-# File Konfigurasi & Hasil
-optimal_params.json
+# File Konfigurasi & Hasil (YANG TIDAK PERLU DI-SYNC)
 semua_saham_bei.csv
 hasil_backtest_semua.csv
 
 # Folder-folder yang diabaikan
-/models/
 /logs/
 /_arsip/
 /__pycache__/

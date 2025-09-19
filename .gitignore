@@ -1,0 +1,18 @@
+# File Database
+data_saham.db
+
+# File Konfigurasi & Hasil
+optimal_params.json
+semua_saham_bei.csv
+hasil_backtest_semua.csv
+
+# Folder-folder yang diabaikan
+/models/
+/logs/
+/_arsip/
+/__pycache__/
+/.vscode/
+
+# File Biner dan Dependensi
+chromedriver.exe
+*.whl

@@ -4,7 +4,8 @@ from sqlalchemy import create_engine, inspect
 import time
 import argparse
 import os
-from datetime import datetime, timedelta # Tambahkan timedelta
+from datetime import datetime, timedelta
+from github_sync import sync_to_github # <-- Impor kurir kita
 
 # --- KONFIGURASI & SETUP ---
 db_file_path = "sqlite:///data_saham.db"
@@ -17,55 +18,38 @@ def update_stock_data(ticker_symbol):
     Mengunduh dan menyimpan data Harian & Mingguan untuk satu ticker hingga data terbaru.
     """
     inspector = inspect(engine)
-    
-    # Tentukan tanggal akhir sebagai hari esok untuk memastikan data hari ini terambil
     end_date = datetime.now() + timedelta(days=1)
     
     try:
         # --- PROSES DATA HARIAN (DAILY) ---
         if not inspector.has_table(ticker_symbol):
             data_daily = yf.download(
-                ticker_symbol, 
-                start=start_date, 
-                end=end_date, # Tambahkan parameter end_date
-                interval="1d", 
-                progress=False, 
-                timeout=10
+                ticker_symbol, start=start_date, end=end_date,
+                interval="1d", progress=False, timeout=10
             )
-            
-            if data_daily.empty:
-                print(f"-> [{ticker_symbol}] Tidak ada data harian. Melewati.")
-                return False
-            else:
+            if not data_daily.empty:
                 if isinstance(data_daily.columns, pd.MultiIndex):
                     data_daily.columns = data_daily.columns.get_level_values(0)
-                
                 data_daily.to_sql(ticker_symbol, engine, if_exists='replace')
         
         # --- PROSES DATA MINGGUAN (WEEKLY) ---
         table_name_weekly = f"{ticker_symbol}_weekly"
         if not inspector.has_table(table_name_weekly):
             data_weekly = yf.download(
-                ticker_symbol, 
-                start=start_date, 
-                end=end_date, # Tambahkan parameter end_date
-                interval="1wk", 
-                progress=False, 
-                timeout=10
+                ticker_symbol, start=start_date, end=end_date,
+                interval="1wk", progress=False, timeout=10
             )
-
             if not data_weekly.empty:
                 if isinstance(data_weekly.columns, pd.MultiIndex):
                     data_weekly.columns = data_weekly.columns.get_level_values(0)
-                
                 data_weekly.to_sql(table_name_weekly, engine, if_exists='replace')
         
         return True
 
-    except Exception as e:
-        print(f"-> [{ticker_symbol}] GAGAL TOTAL. Error: {e}")
+    except Exception:
+        # Dibuat lebih ringkas, tidak perlu print error untuk proses massal
         return False
-    # --- BAGIAN EKSEKUSI UTAMA (VERSI PUSAT KONTROL) ---
+# --- BAGIAN EKSEKUSI UTAMA (DENGAN AUTO-SYNC) ---
 if __name__ == "__main__":
     # Buat folder 'logs' jika belum ada
     if not os.path.exists('logs'):
@@ -73,31 +57,25 @@ if __name__ == "__main__":
 
     # Siapkan argumen parser
     parser = argparse.ArgumentParser(description="Pengunduh Data Saham Skala Penuh.")
-    parser.add_argument(
-        "--tickers", 
-        nargs='+', 
-        help="(Opsional) Daftar ticker spesifik yang akan diunduh (contoh: BBCA.JK TLKM.JK)"
-    )
+    parser.add_argument("--tickers", nargs='+', help="(Opsional) Daftar ticker spesifik yang akan diunduh.")
     args = parser.parse_args()
 
     tickers_to_process = []
 
-    # Tentukan mode kerja: Spesifik atau Semua
+    # Tentukan mode kerja
     if args.tickers:
-        # MODE SPESIFIK: Hanya proses ticker yang diberikan
         tickers_to_process = [ticker.upper() for ticker in args.tickers]
         print(f"--- MENJALANKAN DALAM MODE SPESIFIK UNTUK {len(tickers_to_process)} SAHAM ---")
     else:
-        # MODE SEMUA: Proses semua saham dari file CSV
         try:
             df_all_stocks = pd.read_csv('semua_saham_bei.csv')
             tickers_to_process = df_all_stocks['ticker'].tolist()
             print(f"--- MENJALANKAN DALAM MODE SKALA PENUH UNTUK {len(tickers_to_process)} SAHAM ---")
         except FileNotFoundError:
-            print("Error: File 'semua_saham_bei.csv' tidak ditemukan. Jalankan script 'update_master_list.py' terlebih dahulu.")
+            print("Error: File 'semua_saham_bei.csv' tidak ditemukan.")
             exit()
     
-    # Inisialisasi penghitung untuk laporan
+    # Inisialisasi penghitung
     total_saham = len(tickers_to_process)
     sukses_count = 0
     gagal_count = 0
@@ -107,16 +85,13 @@ if __name__ == "__main__":
     # Loop utama
     for i, ticker in enumerate(tickers_to_process):
         print(f"Memproses {i+1}/{total_saham}: {ticker}", end='\r')
-        
         sukses = update_stock_data(ticker)
-        
         if sukses:
             sukses_count += 1
         else:
             gagal_count += 1
             gagal_list.append(ticker)
-        
-        time.sleep(0.5) # Jeda singkat
+        time.sleep(0.5)
 
     # LAPORAN AKHIR
     end_time = time.time()
@@ -134,8 +109,11 @@ if __name__ == "__main__":
         print("\nDaftar saham yang gagal:")
         print(", ".join(gagal_list))
     
-    # MENINGGALKAN JEJAK: Tulis stempel waktu ke file log
     with open('logs/get_data_last_run.log', 'w') as f:
         f.write(datetime.now().isoformat())
     print("\nStempel waktu update berhasil dicatat.")
     print("="*54)
+
+    # --- PANGGIL "KURIR" UNTUK SINKRONISASI OTOMATIS ---
+    if sukses_count > 0: # Hanya sync jika ada data baru yang berhasil diunduh
+        sync_to_github(f"Auto-sync: Update {sukses_count} data saham")

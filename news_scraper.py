@@ -5,7 +5,8 @@ from sqlalchemy import create_engine, text as sqlalchemy_text
 import time
 from datetime import datetime, timedelta
 import urllib.parse
-import numpy as np # <-- PERBAIKAN DI SINI
+import numpy as np
+from github_sync import sync_to_github # Impor kurir
 
 # --- KONFIGURASI ---
 db_file_path = "sqlite:///data_saham.db"
@@ -49,6 +50,7 @@ def scrape_and_analyze_news(ticker_symbol):
     
     headers = { "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/108.0.0.0 Safari/537.36" }
     
+    total_berita_ditemukan = 0
     try:
         response = requests.get(url, headers=headers, timeout=15)
         response.raise_for_status()
@@ -77,19 +79,19 @@ def scrape_and_analyze_news(ticker_symbol):
 
         df_news = pd.DataFrame(news_list)
         df_news.to_sql('news_sentiment', engine, if_exists='append', index=False)
-        return len(df_news)
+        total_berita_ditemukan = len(df_news)
 
     except requests.exceptions.RequestException:
-        return 0
+        pass
     except Exception as e:
         print(f"-> [{ticker_symbol}] GAGAL (error tak terduga): {e}")
-        return 0
+    
+    return total_berita_ditemukan
 
 # --- BAGIAN EKSEKUSI UTAMA ---
 if __name__ == "__main__":
     
     print("\n--- MULAI PROSES SCRAPING & ANALISIS SENTIMEN ---")
-    print("Mode: Skala Penuh | Rentang Waktu: 14 Hari Terakhir")
     
     try:
         with engine.connect() as conn:
@@ -102,19 +104,19 @@ if __name__ == "__main__":
     try:
         df_all_stocks = pd.read_csv('semua_saham_bei.csv')
         tickers_to_process = df_all_stocks['ticker'].tolist()
-        print(f"Akan memproses sentimen untuk {len(tickers_to_process)} saham. Ini akan sangat lama...")
+        print(f"MODE PABRIK: Akan memproses sentimen untuk {len(tickers_to_process)} saham.")
     except FileNotFoundError:
-        print("Error: File 'semua_saham_bei.csv' tidak ditemukan. Proses dibatalkan.")
-        exit()
+        print("File 'semua_saham_bei.csv' tidak ditemukan. Menggunakan watchlist default.")
+        tickers_to_process = ['BBCA.JK', 'TLKM.JK', 'ASII.JK', 'BMRI.JK', 'GOTO.JK']
     
     start_time = time.time()
-    total_berita = 0
+    total_berita_global = 0
     
     for i, ticker in enumerate(tickers_to_process):
         print(f"Memproses sentimen: ({i+1}/{len(tickers_to_process)}) {ticker}", end='\r')
         
         jumlah_berita_ditemukan = scrape_and_analyze_news(ticker)
-        total_berita += jumlah_berita_ditemukan
+        total_berita_global += jumlah_berita_ditemukan
         
         time.sleep(np.random.uniform(2, 4))
         
@@ -125,5 +127,12 @@ if __name__ == "__main__":
     print(f"--- SEMUA PROSES SENTIMEN SELESAI ---")
     print(f"Total Waktu              : {total_waktu_menit:.2f} menit")
     print(f"Total Saham Diproses     : {len(tickers_to_process)}")
-    print(f"Total Judul Berita Ditemukan: {total_berita}")
+    print(f"Total Judul Berita Ditemukan: {total_berita_global}")
     print("="*54)
+
+    with open('logs/news_scraper_last_run.log', 'w') as f:
+        f.write(datetime.now().isoformat())
+    print("\nStempel waktu update berhasil dicatat.")
+
+    if total_berita_global > 0:
+        sync_to_github(f"Auto-sync: Update data sentimen untuk {len(tickers_to_process)} saham")

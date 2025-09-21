@@ -11,6 +11,7 @@ import time
 import os
 import argparse
 from datetime import datetime
+from github_sync import sync_to_github # <-- Impor kurir kita
 
 # --- FUNGSI UNTUK MEMPERSIAPKAN DATA DENGAN PARAMETER DINAMIS ---
 def prepare_features_and_target(df, params):
@@ -49,25 +50,24 @@ def prepare_features_and_target(df, params):
     y = df_copy['Target']
     
     return X, y
-# --- BAGIAN EKSEKUSI UTAMA (VERSI PUSAT KONTROL) ---
+
+# --- BAGIAN EKSEKUSI UTAMA ---
 if __name__ == "__main__":
     start_time = time.time()
     engine = create_engine("sqlite:///data_saham.db")
     
     # Siapkan argumen parser
     parser = argparse.ArgumentParser(description="Hyperparameter Optimizer untuk Model AI Saham.")
-    parser.add_argument("--tickers", nargs='+', help="(Opsional) Daftar ticker spesifik yang akan dioptimasi (contoh: BBCA.JK ASII.JK)")
+    parser.add_argument("--tickers", nargs='+', help="(Opsional) Daftar ticker spesifik yang akan dioptimasi.")
     args = parser.parse_args()
 
     tickers_to_process = []
     
     # Tentukan mode kerja
     if args.tickers:
-        # MODE TARGET: Proses ticker yang diberikan
         tickers_to_process = [ticker.upper() for ticker in args.tickers]
         print(f"--- MENJALANKAN DALAM MODE TARGET UNTUK {len(tickers_to_process)} SAHAM ---")
     else:
-        # MODE CONTOH: Proses satu saham default
         tickers_to_process = ['BBCA.JK']
         print(f"--- MENJALANKAN DALAM MODE CONTOH UNTUK {tickers_to_process[0]} ---")
         print("Untuk menjalankan lebih dari satu saham, gunakan argumen --tickers.")
@@ -94,10 +94,12 @@ if __name__ == "__main__":
         print(f"File '{output_file}' ditemukan. Melanjutkan dan akan memperbarui jika ditemukan hasil lebih baik.")
     except FileNotFoundError:
         all_best_params = {}
-
-    # --- LOOPING UTAMA UNTUK SEMUA SAHAM YANG DIPILIH ---
+        # --- LOOPING UTAMA UNTUK SEMUA SAHAM YANG DIPILIH ---
+    saham_yang_dioptimasi_kali_ini = []
+    
     for i, ticker in enumerate(tickers_to_process):
         
+        # FITUR RESUME: Lewati saham yang sudah ada di file JSON
         if ticker in all_best_params and 'error' not in all_best_params.get(ticker, {}):
             print(f"\n({i+1}/{len(tickers_to_process)}) {ticker} sudah dioptimasi sebelumnya. Melewati.")
             continue
@@ -118,6 +120,7 @@ if __name__ == "__main__":
         best_score_for_ticker = -1
         best_params_for_ticker = None
         
+        # Loop untuk setiap kombinasi parameter
         for j, params in enumerate(all_param_combinations):
             
             X, y = prepare_features_and_target(raw_df, params)
@@ -128,7 +131,13 @@ if __name__ == "__main__":
             
             if len(X_train) == 0 or len(X_test) == 0: continue
 
-            model = RandomForestClassifier(n_estimators=params['n_estimators'], max_depth=params['max_depth'], min_samples_leaf=params['min_samples_leaf'], random_state=42, n_jobs=-1)
+            model = RandomForestClassifier(
+                n_estimators=params['n_estimators'],
+                max_depth=params['max_depth'],
+                min_samples_leaf=params['min_samples_leaf'],
+                random_state=42,
+                n_jobs=-1
+            )
             model.fit(X_train, y_train)
             
             predictions = model.predict(X_test)
@@ -141,13 +150,16 @@ if __name__ == "__main__":
         if best_params_for_ticker:
             print(f"-> 'Resep Emas' ditemukan untuk {ticker} dengan skor F1: {best_score_for_ticker:.4f}")
             all_best_params[ticker] = best_params_for_ticker
+            saham_yang_dioptimasi_kali_ini.append(ticker)
         else:
             print(f"-> Tidak ditemukan parameter yang valid untuk {ticker}.")
             all_best_params[ticker] = {'error': 'tidak ada parameter valid'}
 
+        # Simpan hasil ke file JSON setiap kali satu saham selesai, untuk keamanan
         with open(output_file, 'w') as f:
             json.dump(all_best_params, f, indent=4)
         print(f"-> Hasil untuk {ticker} disimpan ke '{output_file}'.")
+
 
     # --- LAPORAN AKHIR ---
     print("\n\n--- PROSES OPTIMASI SELESAI ---")
@@ -165,3 +177,8 @@ if __name__ == "__main__":
         f.write(datetime.now().isoformat())
     print("\nStempel waktu optimasi berhasil dicatat.")
     print("======================================================")
+
+    # --- PANGGIL "KURIR" UNTUK SINKRONISASI OTOMATIS ---
+    if saham_yang_dioptimasi_kali_ini: # Hanya sync jika ada resep baru yang ditemukan
+        pesan_commit = f"Auto-sync: Optimasi {len(saham_yang_dioptimasi_kali_ini)} resep saham"
+        sync_to_github(pesan_commit)

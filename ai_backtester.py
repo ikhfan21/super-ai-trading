@@ -9,14 +9,17 @@ import os
 import time
 from datetime import datetime
 import json
-import streamlit as st # <-- PERBAIKAN: Menambahkan import yang hilang
+import streamlit as st # Diperlukan untuk @st.cache_data
+from github_sync import sync_to_github # Impor kurir kita
 
 # --- FUNGSI-FUNGSI BANTU ---
 def get_available_models():
     """Mendapatkan daftar semua model yang tersedia di folder /models."""
     if not os.path.exists('models'):
         return []
+    
     model_files = os.listdir('models')
+    # Ambil nama ticker dari nama file
     tickers = [f.replace('_model.joblib', '') for f in model_files if f.endswith('_model.joblib')]
     return sorted(tickers)
 
@@ -45,11 +48,15 @@ def jalankan_ai_backtesting(ticker_symbol, engine, all_optimal_params, modal_awa
     params = all_optimal_params.get(ticker_symbol, {'rsi_length': 14, 'bbands_length': 20})
 
     # Replikasi feature engineering dari trainer.py secara lengkap
-    df_weekly = pd.read_sql(f"SELECT * FROM '{ticker_symbol}_weekly'", engine, index_col='Date', parse_dates=['Date'])
-    df_weekly['SMA_20_weekly'] = df_weekly.ta.sma(length=20)
-    df_weekly['RSI_14_weekly'] = df_weekly.ta.rsi(length=14)
-    df_weekly_features = df_weekly[['SMA_20_weekly', 'RSI_14_weekly']]
-    df = pd.merge_asof(df_daily, df_weekly_features, left_index=True, right_index=True)
+    try:
+        df_weekly = pd.read_sql(f"SELECT * FROM '{ticker_symbol}_weekly'", engine, index_col='Date', parse_dates=['Date'])
+        df_weekly['SMA_20_weekly'] = df_weekly.ta.sma(length=20)
+        df_weekly['RSI_14_weekly'] = df_weekly.ta.rsi(length=14)
+        df_weekly_features = df_weekly[['SMA_20_weekly', 'RSI_14_weekly']]
+        df = pd.merge_asof(df_daily, df_weekly_features, left_index=True, right_index=True)
+    except:
+        df = df_daily.copy()
+        df[['SMA_20_weekly', 'RSI_14_weekly']] = 0
     
     try:
         df_sentiment = pd.read_sql(f"SELECT * FROM news_sentiment WHERE ticker='{ticker_symbol}'", engine, parse_dates=['date'])
@@ -73,6 +80,10 @@ def jalankan_ai_backtesting(ticker_symbol, engine, all_optimal_params, modal_awa
     pivot_levels_simple = ['p','s1','r1','s2','r2']
     rename_dict = {old: new for old, new in zip(pivot_levels_raw, pivot_levels_simple)}
     df.rename(columns=rename_dict, inplace=True)
+    for level in pivot_levels_simple:
+        if level in df.columns: df[f'Jarak_ke_{level.upper()}'] = (df['Close'] - df[level]) / df['Close']
+    for level in ['p', 's1', 'r1']:
+        if level in df.columns: df[f'Posisi_vs_{level.upper()}'] = np.where(df['Close'] > df[level], 1, 0)
     df.fillna(0, inplace=True)
     
     # --- 2. MEMUAT MODEL AI & MEMBUAT PREDIKSI ---
@@ -107,6 +118,7 @@ def jalankan_ai_backtesting(ticker_symbol, engine, all_optimal_params, modal_awa
     nilai_akhir = df['Nilai_Portfolio'].iloc[-1]
     total_return_pct = ((nilai_akhir - modal_awal) / modal_awal) * 100
     
+    # Filter data untuk periode yang sama dengan backtest untuk perbandingan yang adil
     df_filtered = df[df.index >= df.index[0]]
     buy_and_hold_return_pct = ((df_filtered['Close'].iloc[-1] - df_filtered['Close'].iloc[0]) / df_filtered['Close'].iloc[0]) * 100
     
@@ -136,7 +148,7 @@ def jalankan_ai_backtesting(ticker_symbol, engine, all_optimal_params, modal_awa
         
     return hasil
 
-# --- BAGIAN EKSEKUSI UTAMA (DENGAN MODE GANDA) ---
+# --- BAGIAN EKSEKUSI UTAMA (DENGAN MODE GANDA DAN AUTO-SYNC) ---
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Backtester Model AI (Mode Pabrik & Spesialis).")
     parser.add_argument("--tickers", nargs='+', help="(Opsional) Daftar ticker spesifik yang akan di-backtest (contoh: BBCA.JK ASII.JK)")
@@ -150,17 +162,19 @@ if __name__ == "__main__":
     tickers_to_process = []
     
     if args.tickers:
+        # MODE SPESIALIS
         tickers_to_process = [ticker.upper() for ticker in args.tickers]
         print(f"--- MENJALANKAN DALAM MODE SPESIALIS UNTUK {len(tickers_to_process)} SAHAM ---")
         
         for ticker in tickers_to_process:
             model_file = f'models/{ticker}_model.joblib'
             if not os.path.exists(model_file):
-                print(f"Error: File model '{model_file}' tidak ditemukan. Jalankan 'trainer.py --ticker {ticker}' terlebih dahulu.")
+                print(f"Error: File model '{model_file}' tidak ditemukan. Jalankan 'trainer.py --tickers {ticker}' terlebih dahulu.")
                 continue
             jalankan_ai_backtesting(ticker, engine, all_optimal_params, show_chart=True)
 
     else:
+        # MODE PABRIK
         tickers_to_process = get_available_models()
         print(f"--- MENJALANKAN DALAM MODE PABRIK UNTUK {len(tickers_to_process)} MODEL YANG DITEMUKAN ---")
         
@@ -198,5 +212,8 @@ if __name__ == "__main__":
             with open('logs/ai_backtester_last_run.log', 'w') as f:
                 f.write(datetime.now().isoformat())
             print("\nStempel waktu backtesting berhasil dicatat.")
+            
+            # --- PANGGIL "KURIR" UNTUK SINKRONISASI OTOMATIS ---
+            sync_to_github(f"Auto-sync: Update laporan backtest untuk {len(semua_hasil)} saham")
         else:
             print("Tidak ada hasil backtest yang bisa diproses.")

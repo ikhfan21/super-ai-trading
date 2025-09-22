@@ -5,17 +5,17 @@ import time
 import argparse
 import os
 from datetime import datetime, timedelta
-from github_sync import sync_to_github # <-- Impor kurir kita
+from github_sync import sync_to_github
 
 # --- KONFIGURASI & SETUP ---
 db_file_path = "sqlite:///data_saham.db"
 engine = create_engine(db_file_path)
 start_date = "2020-01-01"
 
-# --- FUNGSI UTAMA UNTUK UPDATE DATA SATU SAHAM (VERSI REAL-TIME) ---
+# --- FUNGSI UTAMA UNTUK UPDATE DATA SATU SAHAM ---
 def update_stock_data(ticker_symbol):
     """
-    Mengunduh dan menyimpan data Harian & Mingguan untuk satu ticker hingga data terbaru.
+    Mengunduh dan menyimpan data Harian & Mingguan untuk satu ticker.
     """
     inspector = inspect(engine)
     end_date = datetime.now() + timedelta(days=1)
@@ -24,9 +24,15 @@ def update_stock_data(ticker_symbol):
         # --- PROSES DATA HARIAN (DAILY) ---
         if not inspector.has_table(ticker_symbol):
             data_daily = yf.download(
-                ticker_symbol, start=start_date, end=end_date,
-                interval="1d", progress=False, timeout=10
+                ticker_symbol, 
+                start=start_date, 
+                end=end_date,
+                interval="1d", 
+                progress=False, 
+                timeout=10,
+                auto_adjust=False # <-- Tambahan eksplisit
             )
+            
             if not data_daily.empty:
                 if isinstance(data_daily.columns, pd.MultiIndex):
                     data_daily.columns = data_daily.columns.get_level_values(0)
@@ -36,9 +42,15 @@ def update_stock_data(ticker_symbol):
         table_name_weekly = f"{ticker_symbol}_weekly"
         if not inspector.has_table(table_name_weekly):
             data_weekly = yf.download(
-                ticker_symbol, start=start_date, end=end_date,
-                interval="1wk", progress=False, timeout=10
+                ticker_symbol, 
+                start=start_date, 
+                end=end_date,
+                interval="1wk", 
+                progress=False, 
+                timeout=10,
+                auto_adjust=False # <-- Tambahan eksplisit
             )
+
             if not data_weekly.empty:
                 if isinstance(data_weekly.columns, pd.MultiIndex):
                     data_weekly.columns = data_weekly.columns.get_level_values(0)
@@ -47,22 +59,19 @@ def update_stock_data(ticker_symbol):
         return True
 
     except Exception:
-        # Dibuat lebih ringkas, tidak perlu print error untuk proses massal
         return False
+
 # --- BAGIAN EKSEKUSI UTAMA (DENGAN AUTO-SYNC) ---
 if __name__ == "__main__":
-    # Buat folder 'logs' jika belum ada
     if not os.path.exists('logs'):
         os.makedirs('logs')
 
-    # Siapkan argumen parser
     parser = argparse.ArgumentParser(description="Pengunduh Data Saham Skala Penuh.")
     parser.add_argument("--tickers", nargs='+', help="(Opsional) Daftar ticker spesifik yang akan diunduh.")
     args = parser.parse_args()
 
     tickers_to_process = []
 
-    # Tentukan mode kerja
     if args.tickers:
         tickers_to_process = [ticker.upper() for ticker in args.tickers]
         print(f"--- MENJALANKAN DALAM MODE SPESIFIK UNTUK {len(tickers_to_process)} SAHAM ---")
@@ -75,14 +84,12 @@ if __name__ == "__main__":
             print("Error: File 'semua_saham_bei.csv' tidak ditemukan.")
             exit()
     
-    # Inisialisasi penghitung
     total_saham = len(tickers_to_process)
     sukses_count = 0
     gagal_count = 0
     gagal_list = []
     start_time = time.time()
     
-    # Loop utama
     for i, ticker in enumerate(tickers_to_process):
         print(f"Memproses {i+1}/{total_saham}: {ticker}", end='\r')
         sukses = update_stock_data(ticker)
@@ -93,7 +100,6 @@ if __name__ == "__main__":
             gagal_list.append(ticker)
         time.sleep(0.5)
 
-    # LAPORAN AKHIR
     end_time = time.time()
     total_waktu_menit = (end_time - start_time) / 60
     
@@ -114,6 +120,5 @@ if __name__ == "__main__":
     print("\nStempel waktu update berhasil dicatat.")
     print("="*54)
 
-    # --- PANGGIL "KURIR" UNTUK SINKRONISASI OTOMATIS ---
-    if sukses_count > 0: # Hanya sync jika ada data baru yang berhasil diunduh
+    if sukses_count > 0:
         sync_to_github(f"Auto-sync: Update {sukses_count} data saham")

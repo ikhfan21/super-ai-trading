@@ -15,6 +15,13 @@ def display_recommendations_page():
     if not stock_list:
         st.warning("Database saham kosong. Harap jalankan `get_data.py` terlebih dahulu.")
         return
+    
+    # Tombol untuk membersihkan cache
+    if st.sidebar.button("🔄 Refresh Data Cache", use_container_width=True, key='refresh_recs'):
+        st.cache_data.clear()
+        st.cache_resource.clear()
+        st.success("Cache berhasil dibersihkan! Data akan dimuat ulang.")
+        st.rerun()
 
     st.sidebar.header("Parameter Screener")
     atr_multiplier = st.sidebar.slider("Multiplier ATR (Jangka Pendek)", 1.0, 4.0, 2.0, 0.1, key='recs_atr')

@@ -28,6 +28,12 @@ st.write("Catat posisi trading Anda dan dapatkan rekomendasi aksi personal dari 
 
 # --- BAGIAN 1: FORMULIR UNTUK MENAMBAH POSISI BARU (TANPA TANGGAL) ---
 st.header("Tambah Posisi Baru", divider='rainbow')
+# Tombol untuk membersihkan cache
+if st.sidebar.button("🔄 Refresh Data Cache", use_container_width=True, key='refresh_portfolio'):
+    st.cache_data.clear()
+    st.cache_resource.clear()
+    st.success("Cache berhasil dibersihkan! Data akan dimuat ulang.")
+    st.rerun()
 
 with st.form("add_position_form", clear_on_submit=True):
     col1, col2, col3 = st.columns(3)

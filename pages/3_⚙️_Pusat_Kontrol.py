@@ -60,6 +60,15 @@ def get_available_stocks_for_control_panel(_engine):
 st.title("⚙️ Pusat Kontrol Sistem AI")
 st.write("Halaman ini digunakan untuk memonitor dan menjalankan proses backend secara manual.")
 
+# Tambahkan sidebar dengan tombol refresh
+st.sidebar.header("Panel Opsi")
+# Tombol untuk membersihkan cache
+if st.sidebar.button("🔄 Refresh Data Cache", use_container_width=True, key='refresh_control'):
+    st.cache_data.clear()
+    st.cache_resource.clear()
+    st.success("Cache berhasil dibersihkan! Data akan dimuat ulang.")
+    st.rerun()
+
 # --- PANEL MONITORING ---
 st.header("Panel Monitoring Status", divider='rainbow')
 st.write("Menampilkan waktu terakhir setiap tugas otomatis berhasil diselesaikan.")

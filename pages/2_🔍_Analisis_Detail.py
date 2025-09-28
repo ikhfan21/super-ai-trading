@@ -104,6 +104,12 @@ st.title("🔍 Analisis Detail Saham")
 # --- SIDEBAR ---
 st.sidebar.header("Panel Kontrol")
 available_stocks = get_available_stocks(engine)
+# Tombol untuk membersihkan cache
+if st.sidebar.button("🔄 Refresh Data Cache", use_container_width=True, key='refresh_detail'):
+    st.cache_data.clear()
+    st.cache_resource.clear()
+    st.success("Cache berhasil dibersihkan! Data akan dimuat ulang.")
+    st.rerun()
 
 if not available_stocks:
     st.sidebar.error("Database saham kosong.")
